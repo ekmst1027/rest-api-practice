@@ -2,7 +2,6 @@ package me.ekmst.demorestapi.events;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import me.ekmst.demorestapi.common.TestDescription;
-import org.hamcrest.Matchers;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
