@@ -174,7 +174,7 @@ public class EventControllerTests extends BaseControllerTest {
     @TestDescription("30개의 이벤트를 10개씩 두번째 페이지 조회하기")
     public void queryEvents() throws Exception {
         // Given
-        IntStream.range(0, 3).forEach(this::generateEvent);
+        IntStream.range(0, 30).forEach(this::generateEvent);
 
         // When & Then
         this.mockMvc.perform(get("/api/events")
